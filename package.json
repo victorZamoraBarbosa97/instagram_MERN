@@ -1,0 +1,25 @@
+{
+  "name": "instagram",
+  "version": "1.0.0",
+  "description": "instagram copy for learning",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Victor Zzmora",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.1.7",
+    "multer": "^1.4.4",
+    "multer-s3": "^2.10.0",
+    "socket.io": "^4.4.1"
+  }
+}
